@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class SayHello {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		System.out.print("Enter your name >");
+		System.out.println("Hello World!!!\n");
+		System.out.print("이름 입력 : ");
 		String name = s.next();
-		System.out.println("Hello, "+name);
+		System.out.println("[" + name + "]님 환영합니다~");
 	}
-
 }
